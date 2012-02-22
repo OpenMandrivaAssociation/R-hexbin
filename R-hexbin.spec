@@ -9,12 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-methods R-grid R-lattice 
-Requires:         R-methods R-grid R-lattice R-graphics R-grDevices R-stats R-utils 
-Requires:         R-marray R-affy R-Biobase 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-methods R-grid R-lattice
-BuildRequires:    R-methods R-grid R-lattice R-graphics R-grDevices R-stats R-utils 
-BuildRequires:    R-marray R-affy R-Biobase 
+Requires:         R-methods R-grid R-lattice R-graphics R-grDevices
+Requires:         R-stats R-utils R-marray R-affy R-Biobase
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-methods R-grid R-lattice R-graphics R-grDevices
+BuildRequires:    R-stats R-utils R-marray R-affy R-Biobase
 
 %description
 Binning and plotting functions for hexagonal bins. Now uses and relies on
