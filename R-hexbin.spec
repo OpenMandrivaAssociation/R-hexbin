@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.26.1
-Release:          1
+Release:          2
 Summary:          Hexagonal Binning Routines
 Group:            Sciences/Mathematics
 License:          GPL-2
