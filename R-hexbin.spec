@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.26.1
-Release:          2
+Version:          1.26.2
+Release:          1
 Summary:          Hexagonal Binning Routines
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/hexbin_1.26.1.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/hexbin_1.26.2.tar.gz
 Requires:         R-methods R-grid R-lattice R-graphics R-grDevices
 Requires:         R-stats R-utils R-marray R-affy R-Biobase
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
